@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Donate</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        h1{ color: #ffffff;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <header>
+             <nav>
+                <ul>
+                    <li><a href="Index.html"><img src="Images/bearlogo.png" alt="BearLogo" height= "70"></a></li>
+                    <li><a href="learnmore.html">Learn More</a></li>
+               </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="challenge">
+                <h1 style="margin-left: 30px">Donate to the Polar Bears</h1>
+                <br>
+                <p style="margin-left: 30px"> The bears are in need of your help. The ice caps are shrinking and polar bears are losing their habitat. Any donations you can make will help save their lives.</p>
+            </div>
+            <br>
+            <form>
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname" placeholder="john">
+            </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname" placeholder="doe">
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+            </p>
+            <p>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="(888)000-0000">
+            </p>
+            <p>
+                <label for="donate">Donate:</label>
+                <select name="donate" id="donate">
+                    <option value="chooseamount">Choose Amount</option>
+                    <option value="$5">$5</option>
+                    <option value="$20">$20</option>
+                    <option value="$50">$50</option>
+                    <option value="$100">$100</option>
+                    <option value="$1000">$1000</option>
+                    <option value="$$100,000,000">$100,000,000</option>
+                    <option value="custom">custom</option>
+                </select>
+                
+            <p id="slider">
+                <label for="myChoice">Love of Polar Bears: </label>
+                Like<input type="range" name="myChoice" id="myChoice" min="1" max="100" value="25">Love
+            </p>
+                
+            <div class="radiobutton">
+                 <label for="emaillistyes">Would you like to join our email list?</label>
+                <input type="radio" name="emaillist" id="emaillistyes" value="Yes" checked>Yes
+                <input type="radio" name="emaillist" id="emaillistno" value="No">No
+            </div>
+            <br>
+
+
+            <p id="submit">
+                <label>
+                <input type="submit" value="Submit">
+                </label>
+            </p>
+
+        </form>
+        </main>
+       
+    </body>

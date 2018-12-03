@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;   
+}
+
+header nav ul{
+    display:flex;
+    align-items: center;
+}
+
+header nav li {
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-right:20px; 
+}
+
+header {
+    display: flex;
+    background-color: rgba(27, 150, 155, 0.51);
+}
+
+h1 {
+    text-transform: uppercase;  
+}
+
+h4 {
+    background-color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/iceberg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+a {
+    color: #a7d5fd;
+    font-size: 1.2em;
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+p {
+    color:aliceblue;
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 20%;
+    margin-left: 30px;
+}
+form input, select {
+    flex: 3;
+    margin: 0 3em;
+    border-radius: 8px;
+}
+
+form select {
+    text-align: center;
+}
+
+form input[type=submit] {
+    color:rgb(27, 150, 155);
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img{
+    display: flex;
+}
+
+.radiobutton {
+    margin-right: 15px;
+    margin-left: 30px;
+    color: white;
+}
+.challenge{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.lightblue {
+    color:aliceblue;
+    margin-left: 20px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
+    margin: 0px 20px 20px 20px;
+}
+
+.img{
+    display: flex;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-bottom-color: #0c0257; 
+    padding: 50px;
+}
+
+.bold {
+    color: #a7d5fd;
+}
+
+#slider {
+    flex: 3;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+#submit {
+    justify-content: center;
+
+}
+
+#polarbears {
+    border: 10px 10px #0670fa;
+    box-shadow: 3px 3px #0c0257;
+}
+
+footer nav ul{
+    display:flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    justify-content: flex-end;
+    padding:20px; 
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(27, 150, 155, 0.51);
+}
