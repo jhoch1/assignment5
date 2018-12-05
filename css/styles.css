@@ -43,12 +43,13 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    justify-content: space-around; 
+    justify-content: space-around;
+    font-size: 1.3em;
 }
 
 a {
     color: #a7d5fd;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: background-color .3s, color .3s;
     text-decoration: none;
     text-transform: uppercase; 
@@ -143,7 +144,6 @@ img{
 }
 #submit {
     justify-content: center;
-
 }
 
 #polarbears {
@@ -168,13 +168,11 @@ footer {
 }
 
 @media screen and (max-width:400px){
-    header, 
-    main, 
-    footer,
-    form p {
-        flex-direction: column;
+    header, main, footer,form p, img{
+/*        flex-direction: column;*/
+        font-size: .8em;
     }
     img {
-        flex-direction: column;
+        width: 85%;
     }
 }
