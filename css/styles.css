@@ -168,11 +168,16 @@ footer {
 }
 
 @media screen and (max-width:400px){
-    header, main, footer,form p, img{
+    header, main, footer, form p, img{
 /*        flex-direction: column;*/
         font-size: .8em;
     }
+/*
     img {
         width: 85%;
+    }
+*/
+    .pics { 
+        max-width: 350px; 
     }
 }
